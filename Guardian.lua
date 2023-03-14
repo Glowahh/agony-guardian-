@@ -46,6 +46,18 @@ getgenv().Guardian={
             end
         end
     end
+}
+--game:GetService("StarterGui"):SetCore("SendNotification",{
+  --  Title="Guardian has been activated",
+  --  Text="Guardian is now protecting you in the background",
+  --  Button1="Okay!",
+  --  Duration=0
+})
+--game:GetService("StarterGui"):SetCore("SendNotification",{
+ --   Title="By Hypernova#0721",
+ --   Text="With love <3",
+  --  Button1="<3",
+  --  Duration=0
 })
 if not hookmetamethod or not hookfunction then
     task.spawn(function()error("Your executor does not support a core function needed for this script. Expect detections and poor security")end)
